@@ -322,7 +322,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         item.innerHTML = `
           <img src="${photo.dataUrl}"
-               alt="Foto de Brisa Estética: ${escapeHtml(photo.name)}"
+               alt="Foto de Elegancia: ${escapeHtml(photo.name)}"
                loading="lazy" />
           <div class="preview-item__overlay"
                role="group"
@@ -402,7 +402,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           item.innerHTML = `
             <img src="${photo.dataUrl}"
-                 alt="Foto de Brisa Estética: ${escapeHtml(photo.name)}"
+                 alt="Foto de Elegancia: ${escapeHtml(photo.name)}"
                  loading="lazy" />
             <span class="gallery__caption" aria-hidden="true">${escapeHtml(photo.name)}</span>
           `;
